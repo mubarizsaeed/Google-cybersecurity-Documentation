@@ -1,0 +1,26 @@
+Activity overview
+As a security analyst, you won’t have all the answers all the time, but you can learn where to find them. One of the great things about Linux is that you can get help right through the command line.
+
+In this lab activity, you’ll use the man and whatis commands to get information on other commands and how they work. You’ll also use the apropos command to search the manual page for a command with a specified string.
+
+When working as a security analyst, you'll likely find it useful to know how to discover which command to use or information about what commands do.
+
+With that in mind, let’s explore your scenario.
+
+Scenario
+In this scenario, you have to find more information about commands that you need to use. You also need to discover which command to use to perform a certain task.
+
+Here’s how you’ll do this task: First, you’ll explore a few commands you can use in the shell to learn more about other commands. Next, you’ll find an option you need to add to a command. Third, you’ll use a command to get a brief description of commands so you can identify their differences. Finally, you’ll identify the command you need to perform a task.
+
+It's time to get ready to explore some of the Linux help resources!
+
+
+Lab Commands:
+
+whatis cat
+man cat
+apropos -a first part file
+man useradd
+whatis rmdir
+whatis rm
+propos -a create new group

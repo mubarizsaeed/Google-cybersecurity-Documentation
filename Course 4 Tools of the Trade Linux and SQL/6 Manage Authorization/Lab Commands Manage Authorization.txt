@@ -1,0 +1,31 @@
+Activity overview
+In this lab activity, you’ll use Linux commands to configure authorization.
+
+Authorization is the concept of granting access to specific resources in a system. It's important because without authorization any user could access and modify all files belonging to other users or system files. This would certainly be a security risk.
+
+In Linux, file and directory permissions are used to specify who has access to specific files and directories. You’ll explore file and directory permissions and change the ownership of a file and a directory to limit who can access them.
+
+As a security analyst, setting appropriate access permissions is critical to protecting sensitive information and maintaining the overall security of a system.
+
+Scenario
+In this scenario, you must examine and manage the permissions on the files in the /home/researcher2/projects directory for the researcher2 user.
+
+The researcher2 user is part of the research_team group.
+
+You must check the permissions for all files in the directory, including any hidden files, to make sure that permissions align with the authorization that should be given. When it doesn't, you must change the permissions.
+
+Here’s how you’ll do this task: First, you’ll check the user and group permissions for all files in the projects directory. Next, you’ll check whether any files have incorrect permissions and change the permissions as needed. Finally, you’ll check the permissions of the /home/researcher2/projects/drafts directory and modify these permissions to remove any unauthorized access.
+
+
+Lab Commands:
+cd projects
+ls -l
+ls -a
+ls -l project_t.txt
+ls -l project_k.txt
+chmod o-w project_k.txt
+ls -l project_m.txt
+ls -l .project_x.txt
+chmod u+r,g+r,g-w .project_x.txt
+ls -ld /home/researcher2/projects/drafts
+chmod g-x /home/researcher2/projects/drafts

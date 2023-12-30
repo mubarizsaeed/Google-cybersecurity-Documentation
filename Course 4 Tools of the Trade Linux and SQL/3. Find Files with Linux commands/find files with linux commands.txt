@@ -1,0 +1,29 @@
+Activity overview
+Previously, you learned about Linux and how to communicate with the OS through the shell. You also learned how to use some of the core commands to navigate the Linux file system and read content from files it contains.
+
+These are essential skills. For example, when investigating unauthorized access, you might navigate to and then read a user access report.
+
+In this lab activity, you’ll navigate a Linux file structure, locate files, and read the contents of files. You’ll also need to answer a few multiple-choice questions based on the information contained in these files.
+
+As a security analyst, it’s key that you know how to navigate, manage, and analyze files remotely via a Linux shell without a graphical user interface.
+
+Scenario
+In this scenario, you have to locate and analyze the information of certain files located in the /home/analyst directory.
+
+Here’s how you’ll do this: First, you’ll get the information of the current working directory you’re in and display the contents of the directory. Second, you’ll navigate to the reports directory and list the subdirectories it contains. Third, you’ll navigate to the users subdirectory and display the contents of the Q1_added_users.txt file. Finally, you’ll navigate to the logs directory and display the first 10 lines of a file it contains.
+
+To complete these tasks, you'll need to use commands that you've previously learned in this course. Well, it's time to practice what you’ve learned. Let’s do this!
+
+
+
+Lab commands:
+pwd
+ls
+cd reports
+cd users
+ls
+cat Q1_added_users.txt
+cd ..
+cd ..
+cd logs
+head server_logs.txt

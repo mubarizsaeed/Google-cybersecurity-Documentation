@@ -1,0 +1,22 @@
+Activity overview
+Previously, you focused on authorization, the concept of granting access to specific resources in a system. Another important concept in security is authentication. Authentication is the process of a user proving that they are who they say they are in the system.
+
+When managing this, security analysts need to ensure
+
+not all users get access to the system,
+new users (those who are new to the organization or a group) are added to the system, and
+current users who change groups or leave the organization are deleted from the system.
+In this lab activity, you’ll use the useradd, usermod, userdel, and chown commands to manage user access in the Linux Bash shell.
+
+Important: You must use sudo at the beginning of all the commands you use in this lab. Adding or removing users and groups are tasks that require root (super user) privileges, and you’ll need to use sudo with the commands that are used to perform these tasks.
+
+Scenario
+In this scenario, a new employee with the username researcher9 joins an organization. You have to add them to the system and continue to manage their access during their time with the organization.
+
+Here’s how you’ll do this task: First, you’ll add a new employee to the system and then to their primary group. Second, you’ll make this employee the owner of a file related to a particular project. Third, you’ll add the new employee to a supplementary group. Finally, you’ll delete the employee from the system.
+
+Lab Commands:
+sudo useradd researcher9
+sudo usermod -g research_team researcher9
+sudo userdel researcher9
+sudo groupdel researcher9

@@ -1,0 +1,29 @@
+In this lab activity, you’ll use the Advanced Package Tool (APT) and sudo to install and uninstall applications in a Linux Bash shell.
+
+While installing Linux applications can be a complex task, the APT package manager manages most of this complexity for you and allows you to quickly and reliably manage the applications in a Linux environment.
+
+You'll use Suricata and tcpdump as an example. These are network security applications that can be used to capture and analyze network traffic.
+
+The virtual machine you access in this lab has a Debian-based distribution of Linux running, and that works with the APT package manager. Using a virtual machine prevents damage to a system in the event its tools are used improperly. It also gives you the ability to revert to a previous state.
+
+As a security analyst, it's likely you'll need to know how to install and manage applications on a Linux operating system. In this lab activity, you’ll learn how to do exactly that!
+
+
+Your role as a security analyst requires that you have the Suricata and tcpdump network security applications installed on your system.
+
+In this scenario, you have to install, uninstall, and reinstall these applications on your Linux Bash shell. You also need to confirm that you’ve installed them correctly.
+
+Here’s how you'll do this: First, you’ll confirm that APT is installed on your Linux Bash shell. Next, you’ll use APT to install the Suricata application and confirm that it is installed. Then, you’ll uninstall the Suricata application and confirm this as well. Next, you’ll install the tcpdump application and list the applications currently installed. Finally, you’ll reinstall the Suricata application and confirm that both applications are installed.
+
+
+1. sudo apt install suricata
+
+2. suricata
+
+3. sudo apt remove suricata
+
+4. suricata
+
+5. apt list --installed
+
+1.sudo apt install tcpdump
