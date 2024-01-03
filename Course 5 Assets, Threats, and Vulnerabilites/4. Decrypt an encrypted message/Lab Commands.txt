@@ -1,0 +1,29 @@
+Activity overview
+Previously, you learned about cryptography and how encryption and decryption can be used to secure information online. You were also introduced to the Caesar cipher, one of the earliest cryptographic algorithms used to protect people’s privacy.
+
+As a security analyst, it’s important that you understand the role of encryption to secure data online and that you’re familiar with the right security controls to do so.
+
+In this lab activity, you’ll be guided through some basic cryptographic activities using Linux commands to decrypt files and reveal hidden messages.
+
+Scenario
+In this scenario, all of the files in your home directory have been encrypted. You’ll need to use Linux commands to break the Caesar cipher and decrypt the files so that you can read the hidden messages they contain.
+
+Here’s how you’ll do this task: First, you’ll explore the contents of the home directory and read the contents of a file. Next, you’ll find a hidden file and decrypt the Caesar cipher it contains. Finally, you’ll decrypt the encrypted data file to recover your data and reveal the hidden message.
+
+
+Commands:
+ls
+
+cd caesar
+
+ls -a
+
+cat .leftShift3
+
+cat .leftShift3 | tr "d-za-cD-ZA-C" "a-zA-Z"
+
+cd ~
+
+openssl aes-256-cbc -pbkdf2 -a -d -in Q1.encrypted -out Q1.recovered -k ettubrute
+
+cat Q1.recovered
