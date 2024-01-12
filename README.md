@@ -1,7 +1,7 @@
 ![Google Cybersecurity Certificate Badge-1](https://github.com/mubarizsaeed/Google-cybersecurity-certificate-Documentation/assets/98554238/85af885d-d3ce-4fa6-accb-7f06daac515c)
 # Google Cybersecurity Professional Certificate
 
-Welcome to my repository containing all projects, notes, and write-ups from the Google Cybersecurity Professional Certificate. I've successfully completed the program, gaining foundational knowledge for entry-level roles in cybersecurity.
+Welcome to my repository containing all documentation from the Google Cybersecurity Professional Certificate. I've successfully completed the program, gaining foundational knowledge for entry-level roles in cybersecurity.
 
 ## Certificate of Completion
 
@@ -36,4 +36,3 @@ Welcome to my repository containing all projects, notes, and write-ups from the 
   - IDS/IPS tools
   - Firewalls
 
-Feel free to explore each course directory for detailed information. If you have any questions or feedback, don't hesitate to reach out!
